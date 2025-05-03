@@ -1,4 +1,4 @@
-const userName = prompt('Give me your name')
+const userName = 'Bartek'
 
 const h1 = document.querySelector('h1')
 
