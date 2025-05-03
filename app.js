@@ -12,3 +12,12 @@ const secondaryListItems = document.querySelectorAll('#secondary-list .list-item
 
 console.log('secondaryListItems', secondaryListItems);
 console.dir(secondaryListItems);
+
+const mainList = document.querySelector('#main-list')
+
+const mainListItems = mainList.querySelectorAll('.list-item')
+console.log('mainListItems', mainListItems);
+
+for(let i=0; i<mainListItems.length; i++){
+    console.log('mainListItems loop', mainListItems[i])
+}
