@@ -9,3 +9,7 @@ console.log(listItems);
 for(let i=0; i<listItems.length; i++){
     console.log(listItems[i]);
 }
+
+const listItemsByTagName = document.getElementsByTagName('li')
+
+console.log(listItemsByTagName);
