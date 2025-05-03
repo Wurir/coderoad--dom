@@ -7,3 +7,8 @@ const listItems = document.querySelectorAll('.list-item')
 // querySelector wybiera wszystkie elementy
 console.log('listItems', listItems);
 console.dir(listItems);
+
+const secondaryListItems = document.querySelectorAll('#secondary-list .list-item')
+
+console.log('secondaryListItems', secondaryListItems);
+console.dir(secondaryListItems);
