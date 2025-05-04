@@ -1,9 +1,11 @@
-const input = document.querySelector('input')
+const container = document.querySelector('#working-area')
+
+const input = container.querySelector('input')
 input.setAttribute('type', 'number')
 
-const button = document.querySelector('button')
+const button = container.querySelector('button')
 button.removeAttribute('disabled')
 
-const para = document.querySelector('p')
+const para = container.querySelector('p')
 para.setAttribute('class', 'red')
 para.setAttribute('style', 'color: blue')
