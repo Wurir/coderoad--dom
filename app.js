@@ -3,3 +3,6 @@ input.setAttribute('type', 'number')
 
 const button = document.querySelector('button')
 button.removeAttribute('disabled')
+
+const para = document.querySelector('p')
+para.setAttribute('class', 'red')
