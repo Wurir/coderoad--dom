@@ -6,3 +6,4 @@ button.removeAttribute('disabled')
 
 const para = document.querySelector('p')
 para.setAttribute('class', 'red')
+para.setAttribute('style', 'color: blue')
