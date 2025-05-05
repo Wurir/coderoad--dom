@@ -5,6 +5,6 @@ const square = document.querySelector('.square')
 square.style.width = '100px'
 square.style.height = '100px'
 square.style.backgroundColor = 'red'
+square.style.borderRadius = '50%'
 
-square.classList.add('new-class')
-square.classList.remove('square')
+console.log(square.getBoundingClientRect()) // zwraca wymiary i pozycje elementu
