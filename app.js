@@ -10,6 +10,9 @@ function prepend(container, element){
     container.insertBefore(element, container.firstElementChild) 
 }
 
+function remove(element){
+    element.parentElement.removeChild(element)
+}
 // container.remove() // not working in IE
 
-container.removeChild(document.querySelector('.first'))
+remove(p)
