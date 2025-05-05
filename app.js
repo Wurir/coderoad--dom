@@ -1,18 +1,3 @@
-const container = document.querySelector('.container')
+const square = document.querySelector('.square')
 
-const p = document.createElement('p')
-p.className = 'paragraph fourth'
-p.innerHTML = 'Fourth paragraph'
-
-prepend(container, p)
-
-function prepend(container, element){
-    container.insertBefore(element, container.firstElementChild) 
-}
-
-function remove(element){
-    element.parentElement.removeChild(element)
-}
-// container.remove() // not working in IE
-
-remove(p)
+square.setAttribute('style', 'background-color: red; width: 100px; height: 100px')
