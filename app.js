@@ -5,3 +5,6 @@ const square = document.querySelector('.square')
 square.style.width = '100px'
 square.style.height = '100px'
 square.style.backgroundColor = 'red'
+
+square.classList.add('new-class')
+square.classList.remove('square')
